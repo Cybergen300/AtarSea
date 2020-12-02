@@ -71,8 +71,12 @@ import { ETHER_ADDRESS } from '../helpers'
 
 export const loadWeb3 = async() => {
     if (window.ethereum) {
+      const web3 = new Web3(window.ethereum)
       window.web3 = new Web3(window.ethereum)
       await window.ethereum.enable()
+      dispatch(web3Loaded(web3))
+      return web3
+      
     }
     else if (window.web3) {
       window.web3 = new Web3(window.web3.currentProvider)
