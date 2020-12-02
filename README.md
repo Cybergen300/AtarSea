@@ -4,7 +4,7 @@ Code for the AtarSea decentralized cryptocurrency trading exchange
 
 In this repository you'll find the current code for this project aiming to create a full fledge decentralized cryptocurrency exchange. Note: This project being still under development the code will change over time.
 
-Go check this link to see the current development state : https://cybergen.jimdofree.com/blockchain/blockchain-project/project-1/
+Go check this link to see the current development state : https://cybergen.jimdofree.com/blockchain/blockchain-project/atarsea/
 
 Update : If you have metamask on your web browser you can now access directly the Dapp on the Kovan network at this address : https://atarsea.herokuapp.com/
 
