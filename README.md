@@ -6,6 +6,9 @@ In this repository you'll find the current code for this project aiming to creat
 
 Go check this link to see the current development state : https://cybergen.jimdofree.com/blockchain/blockchain-project/project-1/
 
+Update : If you have metamask on your web browser you can now access directly the Dapp on the Kovan network at this address : https://atarsea.herokuapp.com/
+
+
 However if you have already a basic blockchain dev environment :
 
     metamask account
