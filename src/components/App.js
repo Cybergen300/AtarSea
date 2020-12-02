@@ -22,7 +22,7 @@ import {contractsLoadedSelector} from '../store/selectors'
 class App extends Component {
 
   async componentWillMount() {
-    this.loadBlockchainData(this.props.dispatch)
+    await this.loadBlockchainData(this.props.dispatch)
 
   }
 
