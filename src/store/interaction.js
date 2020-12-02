@@ -69,21 +69,10 @@ import synthsOil from '../abis/sOil.json'
 import Exchange from '../abis/Exchange.json'
 import { ETHER_ADDRESS } from '../helpers'
 
-export const loadWeb3 = async() => {
-    if (window.ethereum) {
-      const web3 = new Web3(window.ethereum)
-      window.web3 = new Web3(window.ethereum)
-      await window.ethereum.enable()
-      dispatch(web3Loaded(web3))
-      return web3
-      
-    }
-    else if (window.web3) {
-      window.web3 = new Web3(window.web3.currentProvider)
-    }
-    else{
-      window.alert('Non_ethereum browser detected, you should consider trying Metamask')
-    }
+export const loadWeb3 = (dispatch) => {
+  const web3 = new Web3(Web3.givenProvider || 'http://localhost:7545')
+  dispatch(web3Loaded(web3))
+  return web3
 }
 
 export const loadAccount = async (web3, dispatch) => {
