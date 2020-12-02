@@ -26,4 +26,4 @@ I'll make sure that at any time you're able to run the Dapp locally on your defa
     run "truffle exec scripts/sUSD_seed.js"
     run "npm start"
 
-n.b. Don't forget to set up your Metamask account on local dev at first as the migration we'll be done by default on the local env.
+n.b. Don't forget to open Ganache and set up your Metamask account on local dev at first as the migration we'll be done by default on the local env.
