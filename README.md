@@ -1,4 +1,4 @@
-# AtarTest_v1
+# AtarSea
 
 Code for the AtarSea decentralized cryptocurrency trading exchange
 
