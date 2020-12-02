@@ -1,0 +1,130 @@
+
+.Exchange-Container{
+	background-color: green;
+	position: relative;
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: space-evenly;
+	width : 100vw;
+	height: 100vh;
+}
+
+
+
+.Exchange-Box1{
+	flex:0.9;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	max-height:100vh;
+}
+
+
+.Exchange-Box2{
+	flex:1.55;
+	
+
+}
+.Exchange-Box3{
+	flex:0.55;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.Exchange-Box1-1{
+	min-width: 220px;
+	height: 100%;
+}
+.Exchange-Box1-2{
+	height: 100%;
+	max-height: 50vh;
+}
+.Exchange-Box2-1{
+	width: 100%;
+	height: 55%;
+}
+.Exchange-Box2-2{
+	background-color:  blue;
+	height: 45%;
+
+}
+.Exchange-Box3-1{
+	background-color:  blue;
+	height: 100.8%;
+
+}
+
+.card {
+	border-radius: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-evenly;
+	flex-wrap:nowrap;
+	height: 100%;
+}
+
+.card-healer{
+	padding: 8px 4px;
+}
+
+.card-body{
+	flex: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	padding: 2px;
+}
+
+.card-body th {
+	border-top: 0;
+}
+
+.card-body  .nav-tabs {
+	border-color:  #95999c;
+}
+
+.card-body .nav-item.nav-link {
+	font-size: 80%;
+	font-weight: bold;
+	background-color: inherit;
+	color: inherit;
+	padding: 4px 8px;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-color: #95999c;
+	border-radius: 0px;
+}
+
+.card-body .nav-item.nav-link.active {
+	border-top: 0px; 
+	border-right: 0px; 
+	border-left: 0px;
+	border-bottom: 1px solid #007bff;
+}
+
+.card-body .price-chart {
+	height: 110%; 
+	padding-bottom: 0px
+}
+
+.card-body .price-chart .price {
+	padding-left: 20px;
+}
+
+td.candel-order {
+	cursor: pointer;
+}
+
+td.order-book-order {
+	cursor: pointer;
+}
+
+.basic-single  > select {
+	background-color: black;
+}
+
+

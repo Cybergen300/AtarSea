@@ -1,0 +1,237 @@
+.vertical-split{
+	display: flex;
+	background-color:  #f0f6fc;
+	background-size: 250%;
+	flex-direction: column;
+	max-width: 100vw;
+	flex:3.2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+
+.header{
+	background-color: #b5c2e6;
+	width: 100vw;
+	color: #f5f5f5;
+	height: 10%;
+	flex:0.1;
+
+}
+
+.header > h1 a {
+    text-decoration: none;
+	color: #f5f5f5;
+
+}
+
+.header > h1 {
+	display: flex;
+	flex-direction: row;
+	margin-left: 8px;
+}
+
+.header > h1 div{
+	padding-left: 25%;
+	padding-top: 1%;
+	font-size: 20px;
+}
+.navbar{
+	background-color: #f0f6fc;
+	font-family: 'Orbitron', sans-serif;
+	width: 100vw;
+	height: 10%;
+	flex: 0.1;
+}
+
+
+.slide1 {
+	background-image: url('slide1.png');
+	background-size: 120% 170%;
+	width: 100vw;
+	flex: 1;
+	left: 0;
+	color: #f5f5f5;
+	font-size: 30px;
+	height: 45%;
+
+}
+
+.slide2 {
+	flex: 1.5;
+	width: 100vw;
+	background-image: url('tree.jpg');
+	background-size: 107% 135%;
+	padding-top: 7%;
+	font-size: 25px;
+	color: #ededed;
+	height: 47%;
+}
+
+.slide3 {
+	flex: 1;
+	min-width: 100vw;
+	background-image: url('wood.jpg');
+	background-size: 107% 135%;
+	padding-top: 8%;
+	font-size: 25px;
+	color: #ededed;
+	height: 45%;
+
+}
+
+.navbar > ul {
+	display: flex;
+	flex-direction: row;
+	position : relative;
+    list-style: none;
+
+
+}
+
+.navbar > ul li {
+    padding-right: 40%;
+
+    }
+
+.navbar > ul li a {
+    text-decoration: none;
+    color : grey;
+    }
+
+.slide1 > h1 {
+	padding-top: 18.5%;
+	padding-left: 1%;
+	font-size: 65px;
+}
+
+.slide1 > button {
+	background: rgba(0, 151, 19, 0);
+	height: 10%;
+	position: relative;
+	margin-left: 5%;
+	width:  20.5%;
+	border-color: white;
+	border-radius: 50px; 
+	font-size: 35px;
+	border-width: 3px;
+	top: 8%;
+}
+
+.slide1 > button a {
+    text-decoration: none;
+    color: #f5f5f5;
+    }
+
+
+.Group2But> button {
+	background: rgba(0, 151, 19, 0);
+	height: 8%;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 3%;
+	width:  15%;
+	border-color: white;
+	border-radius: 50px; 
+	color: #f5f5f5;
+	font-size: 28px;
+	border-width: 3px;
+}
+
+
+.Box1_S2{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+.text_slide2{
+	flex: 0.5;
+	padding-left: 2%;
+	padding-right: 5%;
+}
+
+.text_slide2 > h1 {
+	font-size: 45px;
+}
+
+.text_slide2 > h2 {
+	padding-top: 2%;
+	font-size: 40px;
+	padding-bottom: 4%;
+
+}
+.text_slide2 > p {
+	font-size: 35px;
+}
+
+.illustration{
+	background-image: url('slide2.png');
+	position: relative;
+	max-width: 50%;
+	max-height: 50%;
+	margin-left: 8%;
+	flex: 0.49;
+}
+
+.text_slide3 > button {
+	background: rgba(0, 151, 19, 0);
+	height: 10%;
+	position: relative;
+	margin-left: 5%;
+	width: 45%;
+	border-color: white;
+	border-radius: 50px; 
+	color: #f5f5f5;
+	font-size: 28px;
+	border-width: 3px;
+	top: 12%;
+
+
+}
+
+.Box1_S3{
+	flex: 2;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.illustration3{
+
+	position: relative;
+	max-width: 50%;
+	margin-left: 8%;
+	flex: 1;
+}
+
+.text_slide3 > button a {
+    text-decoration: none;
+    color: #f5f5f5;
+    }
+
+.text_slide3{
+	flex: 0.48;
+	padding-left: 2%;
+	padding-right: 5%;
+}
+
+.text_slide3 > h1 {
+	font-size: 45px;
+}
+
+.text_slide3 > h2 {
+	padding-top: 2%;
+	font-size: 40px;
+	padding-bottom: 4%;
+
+}
+.text_slide3 > p {
+	font-size: 35px;
+}
+
+
+
